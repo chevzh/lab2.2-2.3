@@ -114,5 +114,11 @@ namespace lab2._2
                 errorProvider1.SetError(nameTextBox, "Не указано имя!");
             }
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Form2 searchForm = new Form2();
+            searchForm.Show();
+        }
     }    
 }
